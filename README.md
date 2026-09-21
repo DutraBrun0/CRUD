@@ -36,10 +36,10 @@ pytest
    ### Página inicial
    ![pagina_inicial](docs/pagina_inicial.PNG)
    ### Cadastro de produto
-   ![pagina_cadastro](docs/cadastrar%20produto.PNG)
+   ![pagina_cadastro](docs/cadastrar_produto.PNG.PNG)
    ### Produtos cadastrados
-   ![produtos_cadastrados](docs/produtos%20cadastrados.PNG)
-   
+   ![produtos_cadastrados](docs/produtos_cadastrados.PNG.PNG)
+
 ## Funcionalidades
 
 - Listar produtos;
