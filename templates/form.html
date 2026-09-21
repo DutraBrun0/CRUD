@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}{{ titulo }} - CRUD de produtos{% endblock %}
+
+{% block content %}
+<section class="card formulario">
+    <h1>{{ titulo }}</h1>
+    <form method="post">
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" required maxlength="120"
+               value="{{ produto['nome'] if produto else '' }}">
+
+        <label for="descricao">Descrição</label>
+        <textarea id="descricao" name="descricao" rows="4" maxlength="500">{{ produto['descricao'] if produto else '' }}</textarea>
+
+        <label for="preco">Preço</label>
+        <input id="preco" name="preco" type="number" min="0" step="0.01" required
+               value="{{ produto['preco'] if produto else '' }}">
+
+        <div class="acoes-formulario">
+            <a class="botao" href="{{ url_for('index') }}">Cancelar</a>
+            <button class="botao primario" type="submit">Salvar</button>
+        </div>
+    </form>
+</section>
+{% endblock %}

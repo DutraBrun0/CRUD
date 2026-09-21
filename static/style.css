@@ -1,0 +1,27 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 20px;
+   
+    
+}
+.logo{
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  
+}
+
+.botao_primario{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+.botao_primario:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
