@@ -1,6 +1,6 @@
 # CRUD básico com Flask
 
-Aplicação CRUD de produtos feita em Python, Flask e SQLite.
+Aplicação CRUD de produtos feita em Python, Flask e SQLite. 
 
 ## Como executar
 
