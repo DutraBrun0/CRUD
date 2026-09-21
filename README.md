@@ -36,9 +36,9 @@ pytest
    ### Página inicial
    ![pagina_inicial](docs/pagina_inicial.PNG)
    ### Cadastro de produto
-   ![pagina_cadastro](docs/cadastrar_produto.PNG.PNG)
+   ![pagina_cadastro](docs/cadastrar_produto.PNG)
    ### Produtos cadastrados
-   ![produtos_cadastrados](docs/produtos_cadastrados.PNG.PNG)
+   ![produtos_cadastrados](docs/produtos_cadastrados.PNG)
 
 ## Funcionalidades
 
