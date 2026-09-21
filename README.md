@@ -33,12 +33,13 @@ O arquivo `crud.db` é criado automaticamente na primeira execução.
 pytest
 ```
 ## Imagens
-   ### pagina inicial
+   ### Página inicial
    ![pagina_inicial](docs/pagina_inicial.PNG)
-   ### pagina cadastro
+   ### Cadastro de produto
    ![pagina_cadastro](docs/cadastrar%20produto.PNG)
-   ### pagina de produtos cadastrados
+   ### Produtos cadastrados
    ![produtos_cadastrados](docs/produtos%20cadastrados.PNG)
+   
 ## Funcionalidades
 
 - Listar produtos;
