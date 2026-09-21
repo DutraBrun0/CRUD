@@ -32,7 +32,13 @@ O arquivo `crud.db` é criado automaticamente na primeira execução.
 ```powershell
 pytest
 ```
-
+## Imagens
+   ### pagina inicial
+   ![pagina_inicial](docs/pagina_inicial.PNG)
+   ### pagina cadastro
+   ![pagina_cadastro](docs/cadastrar%20produto.PNG)
+   ### pagina de produtos cadastrados
+   ![produtos_cadastrados](docs/produtos%20cadastrados.PNG)
 ## Funcionalidades
 
 - Listar produtos;
